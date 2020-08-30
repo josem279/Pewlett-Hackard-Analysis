@@ -15,11 +15,9 @@ The results of our analysis returned the following four major results:
 - The results of our analysis reveal that almost all positions within Pewlett Hackard are held mostly by individuals born between 1952 and 1955.
 - There are significantly less employees eligible for the mentorship program (1,549) than the amount of employees set to retire (90,398).
 
-Below are screenshots of the tables created for this analysis, which capture these four major findings:
+Below is a screenshots of the table created depicting the count of retiring employees grouped by titles which helps illustrate some of these four major findings:
 
-![]()
-
-![]()
+![Retiring Titles](https://github.com/josem279/Pewlett-Hackard-Analysis/blob/master/Data/retiring_titles.PNG)
 
 ### Summary
 
@@ -29,10 +27,12 @@ How many roles will need to be filled as the "silver tsunami" begins to make an 
 
 - In order to address this question, a query that calculates the difference between the employees that are eligible for the mentorship program and those that will retire was created. This query assumes that the mentorship eligible employees will fill the positions left behind by the retiring employees and then gives us a number that represents the remaining open positions that will have to be filled, which came out to be 88,849 employees as shown below.
 
-![]()
+![Count of Employees to Hire](https://github.com/josem279/Pewlett-Hackard-Analysis/blob/master/Data/mentorship_eligibility_count.PNG)
 
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 
 - To answer this question, a query that followed the same logic used to calculate the count of retiring titles was created using the information from the mentorship_eligibility table. As shown below, there are way more than enough retiring employees to tutor the employees who are eligible for the program not only as a sum but also by title. This would suggest that the mentorship program should be expanded to include more employees, this could be done by adjusting the eligibility requirement in the program to include employees born outside of 1965.
 
-![]()
+![Mentor Eligible Titles](https://github.com/josem279/Pewlett-Hackard-Analysis/blob/master/Data/mentor_eligible_titles_count.PNG)
+
+![Retiring Titles](https://github.com/josem279/Pewlett-Hackard-Analysis/blob/master/Data/retiring_titles.PNG)
